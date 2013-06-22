@@ -11,12 +11,12 @@ Assumptions:
 
 * Ubuntu 12+ is being used
 
-1. Installing `python-pip`
+Installing `python-pip`
 
     $ sudo apt-get install python-pip
     $ sudo apt-get install python-setuptools
 
-2. Installing MySQL server and client
+Installing MySQL server and client
 
     $ sudo apt-get install mysql-server
     $ sudo apt-get install mysql-client
@@ -25,19 +25,19 @@ You may be needed to choose the root username and password. For sake of simplici
 you may keep the password as 'password' and the username as 'root'. (This will be 
 needed later when you try to connect to the Database)
 
-3. Installing `requests` for making HTTP requests
+Installing `requests` for making HTTP requests
 
     $ sudo pip install requests
 
-4. Installing `MySQLDB-Connector` for Python
+Installing `MySQLDB-Connector` for Python
 
     $ sudo apt-get install python-mysqldb
 
-5. Installing `web.py` web server
+Installing `web.py` web server
 
     $ sudo pip install web.py
 
-6. Creating database in MySQL (corresponding to reduced number of fields currently used for testing)
+Creating database in MySQL (corresponding to reduced number of fields currently used for testing)
 
     $ mysql -u root -ppassword
 
@@ -71,11 +71,11 @@ needed later when you try to connect to the Database)
 Running
 -------
 
-1. Running the simulation script. Currently it is sending data to localhost on port 9000
+Running the simulation script. Currently it is sending data to localhost on port 9000
 
     $python jplug_client_simulate.py
 
-2. Running the server to accept the data.
+Running the server to accept the data.
 
     $ python server.py
 
