@@ -11,7 +11,7 @@ Assumptions:
 
 * Ubuntu 12+ is being used
 
-Installing git
+Installing `git`
 
     $ sudo apt-get install git
     $ git clone https://github.com/nipunreddevil/jplug_server.git
@@ -23,7 +23,7 @@ Installing `python-pip`
     $ sudo apt-get install python-pip
     $ sudo apt-get install python-setuptools
 
-Installing MySQL server and client
+Installing `MySQL` server and client
 
     $ sudo apt-get install mysql-server
     $ sudo apt-get install mysql-client
@@ -80,11 +80,11 @@ Running
 
 Running the simulation script. Currently it is sending data to localhost on port 9000
 
-    $python jplug_client_simulate.py
+    $ python jplug_client_simulate.py
 
 Running the server to accept the data.
 
-    $ python server.py
+    $ python server.py 9000
 
 
 
