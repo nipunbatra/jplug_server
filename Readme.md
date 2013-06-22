@@ -13,8 +13,8 @@ Assumptions:
 
 1. Installing `python-pip`
 
-     $ sudo apt-get install python-pip
-     $ sudo apt-get install python-setuptools
+    $ sudo apt-get install python-pip
+    $ sudo apt-get install python-setuptools
 
 2. Installing MySQL server and client
 
