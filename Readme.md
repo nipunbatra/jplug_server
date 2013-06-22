@@ -11,6 +11,13 @@ Assumptions:
 
 * Ubuntu 12+ is being used
 
+Installing git
+
+    $ sudo apt-get install git
+    $ git clone https://github.com/nipunreddevil/jplug_server.git
+    $ git pull
+    $ cd jplug_server
+
 Installing `python-pip`
 
     $ sudo apt-get install python-pip
